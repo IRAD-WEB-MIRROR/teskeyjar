@@ -1,0 +1,11 @@
+body{margin:0;background:#d5dde5;font:12px/1.5 Verdana,Tahoma,Arial,sans-serif;color:#222}
+#w{max-width:760px;margin:0 auto;background:#fff;border:1px solid #8ea1b5;border-top:0}
+#h{background:#2f5a73;color:#fff;padding:8px 12px;font-size:11px;border-bottom:3px solid #b8892b}#h a{color:#f1d58a}
+#t{padding:14px 16px 4px}h1{font:bold 17px Tahoma,Verdana;color:#1f3f63;margin:0 0 4px}
+.sub{color:#666;font-size:11px;margin:0 0 12px}
+table.f{border-collapse:collapse;width:100%;margin:0 0 12px}
+table.f th{width:36%;text-align:left;background:#eef2f6;border:1px solid #c7d1db;padding:5px 7px;font-weight:normal;color:#3b5876;vertical-align:top}
+table.f td{border:1px solid #c7d1db;padding:5px 7px;vertical-align:top}
+.nophoto{width:200px;height:130px;border:1px dashed #aab;display:flex;align-items:center;justify-content:center;color:#99a;font-size:11px;background:#f7f9fb;text-align:center}
+.e{color:#999;font-style:italic}
+#f{background:#eef2f6;border-top:1px solid #c7d1db;padding:8px 12px;font-size:10px;color:#666}

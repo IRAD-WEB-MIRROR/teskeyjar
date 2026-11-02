@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teskeyjar.iradedu.org/sitemap.xml
