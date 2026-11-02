@@ -9,3 +9,7 @@ table.f td{border:1px solid #c7d1db;padding:5px 7px;vertical-align:top}
 .nophoto{width:200px;height:130px;border:1px dashed #aab;display:flex;align-items:center;justify-content:center;color:#99a;font-size:11px;background:#f7f9fb;text-align:center}
 .e{color:#999;font-style:italic}
 #f{background:#eef2f6;border-top:1px solid #c7d1db;padding:8px 12px;font-size:10px;color:#666}
+.sec{font-size:11px;margin:0 0 12px;padding:4px 0;border-top:1px solid #c7d1db;border-bottom:1px solid #c7d1db;color:#888}
+.sec a{color:#1f3f63}.sec b{color:#222}
+h2{font:bold 13px Tahoma,Verdana;color:#1f3f63;margin:14px 0 6px}
+p.n{margin:0 0 9px}p.n b.d{color:#3b5876}
