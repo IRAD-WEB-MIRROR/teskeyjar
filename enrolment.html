@@ -34,7 +34,18 @@
 <tr><th>Places</th><td>one class; all children of Teskey-Jar are taken</td></tr>
 <tr><th>Moving from another school</th><td>at any time, with the personal file of the pupil</td></tr>
 <tr><th>Grades 10&ndash;12</th><td>apply to the secondary school in Kümüshtü in June; the bus is free</td></tr></table>
-<p class="n">Rules of the Ministry of Education: <a href="https://education.iradgov.org/faq.html">education.iradgov.org</a>.</p>
+<p class="n">Rules of the Ministry of Education: <a href="https://education.iradgov.org/faq.html">education.iradgov.org</a>.</p><h2>Can my child start school?</h2>
+<p class="n">Write the date of birth of the child.</p>
+<form id="g1" action="#" onsubmit="return tjCheck()"><p class="n"><input type="date" id="dob" min="2000-01-01" max="2026-12-31" required> <input type="submit" value="Check"></p></form>
+<p class="n" id="g1r" style="display:none;border:1px solid #c7d1db;background:#eef2f6;padding:6px 8px"></p>
+<script>
+function tjCheck(){var v=document.getElementById('dob').value,o=document.getElementById('g1r');if(!v)return false;
+var d=new Date(v+'T00:00:00'),now=new Date(),s0=now.getFullYear()-(now.getMonth()<8?1:0),f=d.getFullYear()+6,t;
+if(new Date(f,d.getMonth(),d.getDate())>new Date(f,8,1))f++;
+if(f>s0){t='Grade 1 from <b>1 September '+f+'</b>. Enrolment: 1 April &ndash; 31 May '+f+' at the school.<br>Grade 9 ends in June '+(f+9)+'; grades 10&ndash;12 at the secondary school in Kümüshtü (free bus).';}
+else{var g=s0-f+1;t=g<=9?'By age the child is in <b>grade '+g+'</b> this school year. Come to the school with the personal file or the birth certificate: we take pupils at any time.':'By age the child has finished basic school. Grades 10&ndash;12: the secondary school in Kümüshtü (free bus).';}
+o.style.display='block';o.innerHTML=t;return false;}
+</script>
 <p style="font-size:11px">Section added 30.03.2023 (Form EN-3).</p></div>
 <div id="f">The information on this page is given by the institution, which answers for it. To change it, send Form EN-2 through the district education office. &middot; <a href="https://iradedu.org/institutions.html">Directory of institutions</a> &middot; <a href="https://iradedu.org/connect.html">About standard pages</a></div>
 </div></body></html>
